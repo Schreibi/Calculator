@@ -1,1 +1,2 @@
 c:\users\victor\documents\visual studio 2012\Projects\Calculator\Calculator\bin\Debug\Calculator.exe.config
+C:\Users\Victor\Documents\GitHub\Calculator\Calculator\bin\Debug\Calculator.exe.config
