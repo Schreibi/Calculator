@@ -55,6 +55,7 @@
             this.deduct.TabIndex = 1;
             this.deduct.Text = "-";
             this.deduct.UseVisualStyleBackColor = true;
+            this.deduct.Click += new System.EventHandler(this.deduct_Click);
             // 
             // multiply
             // 
@@ -64,6 +65,7 @@
             this.multiply.TabIndex = 2;
             this.multiply.Text = "*";
             this.multiply.UseVisualStyleBackColor = true;
+            this.multiply.Click += new System.EventHandler(this.multiply_Click);
             // 
             // share
             // 
@@ -73,6 +75,7 @@
             this.share.TabIndex = 3;
             this.share.Text = "/";
             this.share.UseVisualStyleBackColor = true;
+            this.share.Click += new System.EventHandler(this.share_Click);
             // 
             // fnumber
             // 

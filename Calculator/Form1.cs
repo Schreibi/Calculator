@@ -23,5 +23,26 @@ namespace Calculator
             sum = Convert.ToDouble(fnumber.Text) + Convert.ToDouble(snumber.Text);
             result.Text = Convert.ToString(sum);
         }
+
+        private void deduct_Click(object sender, EventArgs e)
+        {
+            double sum;
+            sum = Convert.ToDouble(fnumber.Text) - Convert.ToDouble(snumber.Text);
+            result.Text = Convert.ToString(sum);
+        }
+
+        private void multiply_Click(object sender, EventArgs e)
+        {
+            double sum;
+            sum = Convert.ToDouble(fnumber.Text) * Convert.ToDouble(snumber.Text);
+            result.Text = Convert.ToString(sum);
+        }
+
+        private void share_Click(object sender, EventArgs e)
+        {
+            double sum;
+            sum = Convert.ToDouble(fnumber.Text) / Convert.ToDouble(snumber.Text);
+            result.Text = Convert.ToString(sum);
+        }
     }
 }
