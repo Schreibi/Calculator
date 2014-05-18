@@ -19,7 +19,9 @@ namespace Calculator
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            double sum;
+            sum = Convert.ToDouble(fnumber.Text) + Convert.ToDouble(snumber.Text);
+            result.Text = Convert.ToString(sum);
         }
     }
 }
