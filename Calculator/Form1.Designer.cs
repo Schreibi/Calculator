@@ -32,9 +32,9 @@
             this.deduct = new System.Windows.Forms.Button();
             this.multiply = new System.Windows.Forms.Button();
             this.share = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.fnumber = new System.Windows.Forms.TextBox();
+            this.snumber = new System.Windows.Forms.TextBox();
+            this.result = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // fold
@@ -74,35 +74,35 @@
             this.share.Text = "/";
             this.share.UseVisualStyleBackColor = true;
             // 
-            // textBox1
+            // fnumber
             // 
-            this.textBox1.Location = new System.Drawing.Point(42, 25);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(94, 20);
-            this.textBox1.TabIndex = 4;
+            this.fnumber.Location = new System.Drawing.Point(42, 25);
+            this.fnumber.Name = "fnumber";
+            this.fnumber.Size = new System.Drawing.Size(94, 20);
+            this.fnumber.TabIndex = 4;
             // 
-            // textBox2
+            // snumber
             // 
-            this.textBox2.Location = new System.Drawing.Point(151, 25);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(94, 20);
-            this.textBox2.TabIndex = 5;
+            this.snumber.Location = new System.Drawing.Point(151, 25);
+            this.snumber.Name = "snumber";
+            this.snumber.Size = new System.Drawing.Size(94, 20);
+            this.snumber.TabIndex = 5;
             // 
-            // textBox3
+            // result
             // 
-            this.textBox3.Location = new System.Drawing.Point(96, 67);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(94, 20);
-            this.textBox3.TabIndex = 6;
+            this.result.Location = new System.Drawing.Point(96, 67);
+            this.result.Name = "result";
+            this.result.Size = new System.Drawing.Size(94, 20);
+            this.result.TabIndex = 6;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(293, 266);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.result);
+            this.Controls.Add(this.snumber);
+            this.Controls.Add(this.fnumber);
             this.Controls.Add(this.share);
             this.Controls.Add(this.multiply);
             this.Controls.Add(this.deduct);
@@ -120,9 +120,9 @@
         private System.Windows.Forms.Button deduct;
         private System.Windows.Forms.Button multiply;
         private System.Windows.Forms.Button share;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox fnumber;
+        private System.Windows.Forms.TextBox snumber;
+        private System.Windows.Forms.TextBox result;
     }
 }
 
