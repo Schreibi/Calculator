@@ -111,7 +111,7 @@
             this.Controls.Add(this.deduct);
             this.Controls.Add(this.fold);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Calculator";
             this.ResumeLayout(false);
             this.PerformLayout();
 
