@@ -83,6 +83,7 @@
             this.fnumber.Name = "fnumber";
             this.fnumber.Size = new System.Drawing.Size(94, 20);
             this.fnumber.TabIndex = 4;
+            this.fnumber.TextChanged += new System.EventHandler(this.fnumber_TextChanged);
             // 
             // snumber
             // 

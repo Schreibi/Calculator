@@ -44,5 +44,10 @@ namespace Calculator
             sum = Convert.ToDouble(fnumber.Text) / Convert.ToDouble(snumber.Text);
             result.Text = Convert.ToString(sum);
         }
+
+        private void fnumber_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
